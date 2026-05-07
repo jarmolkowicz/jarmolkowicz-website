@@ -37,6 +37,16 @@ const {
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="noise" aria-hidden="true"></div>
     <slot />
+
+    <!-- Cookie consent banner -->
+    <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie consent">
+      <p class="cookie-text">This site uses Google Analytics to understand how visitors engage with it. No data is sold or shared.</p>
+      <div class="cookie-actions">
+        <button id="cookie-decline" class="cookie-btn">Decline</button>
+        <button id="cookie-accept" class="cookie-btn cookie-btn--accept">Accept</button>
+      </div>
+    </div>
+
     <script>
       const observer = new IntersectionObserver(
         (entries) => {
@@ -48,6 +58,48 @@ const {
       );
 
       document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+    </script>
+
+    <script>
+      (function () {
+        const GA_ID = "G-FNFV7QN007";
+        const CONSENT_KEY = "ga-consent";
+
+        function loadGA() {
+          const s = document.createElement("script");
+          s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+          s.async = true;
+          document.head.appendChild(s);
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag("js", new Date());
+          gtag("config", GA_ID);
+        }
+
+        const consent = localStorage.getItem(CONSENT_KEY);
+
+        if (consent === "accepted") {
+          loadGA();
+          return;
+        }
+
+        if (consent === null) {
+          const banner = document.getElementById("cookie-banner");
+          banner.style.display = "flex";
+
+          document.getElementById("cookie-accept").addEventListener("click", function () {
+            localStorage.setItem(CONSENT_KEY, "accepted");
+            banner.style.display = "none";
+            loadGA();
+          });
+
+          document.getElementById("cookie-decline").addEventListener("click", function () {
+            localStorage.setItem(CONSENT_KEY, "declined");
+            banner.style.display = "none";
+          });
+        }
+      })();
     </script>
   </body>
 </html>
@@ -184,6 +236,65 @@ const {
     .cursor {
       animation: none;
     }
+  }
+
+  /* Cookie banner */
+  .cookie-banner {
+    display: none;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    padding: 1.25rem 1.5rem;
+    max-width: 480px;
+    width: calc(100% - 3rem);
+    z-index: 9998;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cookie-text {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    color: var(--dim);
+    line-height: 1.6;
+    max-width: none;
+  }
+
+  .cookie-actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: flex-end;
+  }
+
+  .cookie-btn {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--dim-2);
+    background: transparent;
+    color: var(--dim);
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+  }
+
+  .cookie-btn:hover {
+    border-color: var(--text);
+    color: var(--text);
+  }
+
+  .cookie-btn--accept {
+    border-color: var(--amber);
+    color: var(--amber);
+  }
+
+  .cookie-btn--accept:hover {
+    background: var(--amber);
+    color: var(--bg);
   }
 
   /* Utilities */
