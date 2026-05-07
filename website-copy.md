@@ -17,12 +17,12 @@ I care about what technology does *to* people.
 
 ## 01 — What I do.
 
-I help you figure out what AI changes about your business, your people, and how you create value.
+I help companies figure out what AI changes about their business, their people, and how they create value.
 
 - Where AI creates real advantage for you, and where it won't
 - What it means for your structure, your team, and how decisions get made
+- How to adopt AI without eroding what makes your people good at their work
 - How to move carefully in regulated, high-stakes environments, where the cost of a wrong call is real
-- Adopting AI without eroding what makes your people good at their work
 
 ---
 
@@ -41,16 +41,12 @@ Modrn Mind is my attempt to help people navigate it consciously. The research li
 
 ## 03 — Twenty years. Still curious.
 
+A selection of the problems I've worked on. Across healthtech, machine learning, and organizational change.
+
 **// TECHNICAL IMAGINATION**
 
 **Using tablet gameplay to detect autism early**
 Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.
-
-**Will the model hold in the real world?**
-ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.
-
-**Monitoring therapy progress automatically**
-Using sensors and ML to track whether a child's therapy is working over time, without adding burden to therapists or parents. Removing the reliance on subjective assessment at annual reviews.
 
 **Digitizing a blood sample**
 Miniaturizing satellite hyperspectral imaging into a smartphone dongle. Point it at a blood sample, create a digital spectral cube, transmit it to the cloud for analysis, receive a diagnosis. Designed for places with mobile connectivity but no laboratory infrastructure.
@@ -77,12 +73,23 @@ Getting a sales organization to sell data and ML services when they've never don
 **Turning a software company into an advisory firm**
 Shifting a company that competes on execution and price toward competing on judgment and strategy. Different positioning, different talent, different sales process, different client relationship.
 
-**Behavioral science at scale**
-Mapping patient behavior across ten countries simultaneously. Twenty people: behavioral scientists, analysts, and designers, working in different healthcare systems, languages, and cultural contexts. Keeping methodology consistent and findings comparable across all of it.
+**Staying fast while becoming certifiable**
+ISO 13485 demands documentation, process control, and audit trails. Startups survive by ignoring all of that. Getting certified without turning the company into something slow and risk-averse. Building the quality system around how the team actually worked. Not the other way around.
+
+**// RESEARCH AND EVIDENCE**
+
+**From hypothesis to Phase 3 clinical trial**
+Starting with exploratory studies. Refining the ML models. Publishing in peer-reviewed journals. Replicating results. Then a Phase 3 clinical trial in 760 children across the UK and Sweden. A new diagnostic paradigm needs to be proven before anyone will trust it. Building that proof, one study at a time.
+
+**Will the model hold in the real world?**
+ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.
+
+**Building a global research network**
+At one point, collaborating with universities, research centers, and therapeutic centers across multiple countries. Each with their own protocols, ethics boards, and institutional timelines. Building the partnerships, agreements, and coordination infrastructure to make joint research possible and keep it scientifically consistent.
 
 ---
 
-## 04 — The work got noticed.
+## 04 — Some of the work got noticed.
 
 **01 — MIT Innovator Under 35**
 Named by MIT Technology Review for work on early autism screening using AI and games.
@@ -94,7 +101,7 @@ Selected by Google and the Financial Times as one of New Europe's 100 most innov
 Nine weeks at NASA Ames Research Park, working with leaders from around the world on humanity's hardest problems.
 
 **04 — TEDx Speaker**
-Business is the most powerful man-made force on the planet. Entrepreneurs can use it as a force for good, and take on real challenges.
+Spoke at TEDxKrakow on why entrepreneurs are best positioned to use business as a force for genuine good.
 
 ---
 

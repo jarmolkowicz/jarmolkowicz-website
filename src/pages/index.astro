@@ -37,14 +37,14 @@ import Layout from "../layouts/Layout.astro";
       <div class="spotlight-content">
         <h2>What I do.</h2>
         <p>
-          I help you figure out what AI changes about your business, your people,
-          and how you create value.
+          I help companies figure out what AI changes about their business, their people,
+          and how they create value.
         </p>
         <ul>
           <li>Where AI creates real advantage for you, and where it won't</li>
           <li>What it means for your structure, your team, and how decisions get made</li>
+          <li>How to adopt AI without eroding what makes your people good at their work</li>
           <li>How to move carefully in regulated, high-stakes environments, where the cost of a wrong call is real</li>
-          <li>Adopting AI without eroding what makes your people good at their work</li>
         </ul>
         <a
           href="https://calendar.app.google/T1xR4TFERp7Xuy7K7"
@@ -126,6 +126,7 @@ import Layout from "../layouts/Layout.astro";
       </div>
       <div class="background-content">
         <h2>Twenty years.<br />Still curious.</h2>
+        <p class="bg-intro">A selection of the problems I've worked on. Across healthtech, machine learning, and organizational change.</p>
         <div class="bg-portfolio">
 
           <details class="bg-group" name="bg-accordion" open>
@@ -134,14 +135,6 @@ import Layout from "../layouts/Layout.astro";
               <div class="bg-entry">
                 <h3>Using tablet gameplay to detect autism early</h3>
                 <p>Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.</p>
-              </div>
-              <div class="bg-entry">
-                <h3>Will the model hold in the real world?</h3>
-                <p>ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.</p>
-              </div>
-              <div class="bg-entry">
-                <h3>Monitoring therapy progress automatically</h3>
-                <p>Using sensors and ML to track whether a child's therapy is working over time, without adding burden to therapists or parents. Removing the reliance on subjective assessment at annual reviews.</p>
               </div>
               <div class="bg-entry">
                 <h3>Digitizing a blood sample</h3>
@@ -184,8 +177,26 @@ import Layout from "../layouts/Layout.astro";
                 <p>Shifting a company that competes on execution and price toward competing on judgment and strategy. Different positioning, different talent, different sales process, different client relationship.</p>
               </div>
               <div class="bg-entry">
-                <h3>Behavioral science at scale</h3>
-                <p>Mapping patient behavior across ten countries simultaneously. Twenty people: behavioral scientists, analysts, and designers, working in different healthcare systems, languages, and cultural contexts. Keeping methodology consistent and findings comparable across all of it.</p>
+                <h3>Staying fast while becoming certifiable</h3>
+                <p>ISO 13485 demands documentation, process control, and audit trails. Startups survive by ignoring all of that. Getting certified without turning the company into something slow and risk-averse. Building the quality system around how the team actually worked. Not the other way around.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="bg-group" name="bg-accordion">
+            <summary class="bg-category">// Research and evidence</summary>
+            <div class="bg-entries">
+              <div class="bg-entry">
+                <h3>From hypothesis to Phase 3 clinical trial</h3>
+                <p>Starting with exploratory studies. Refining the ML models. Publishing in peer-reviewed journals. Replicating results. Then a Phase 3 clinical trial in 760 children across the UK and Sweden. A new diagnostic paradigm needs to be proven before anyone will trust it. Building that proof, one study at a time.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Will the model hold in the real world?</h3>
+                <p>ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Building a global research network</h3>
+                <p>At one point, collaborating with universities, research centers, and therapeutic centers across multiple countries. Each with their own protocols, ethics boards, and institutional timelines. Building the partnerships, agreements, and coordination infrastructure to make joint research possible and keep it scientifically consistent.</p>
               </div>
             </div>
           </details>
@@ -203,7 +214,7 @@ import Layout from "../layouts/Layout.astro";
         <span>// 04 — RECOGNITION</span>
       </div>
       <div class="recognition-content">
-        <h2>The work got noticed.</h2>
+        <h2>Some of the work got noticed.</h2>
         <div class="rec-table">
           <div class="rec-row">
             <span class="rec-num amber">01</span>
@@ -230,7 +241,7 @@ import Layout from "../layouts/Layout.astro";
             <span class="rec-num amber">04</span>
             <div class="rec-body">
               <h3>TEDx Speaker</h3>
-              <p>Business is the most powerful man-made force on the planet. Entrepreneurs can use it as a force for good, and take on real challenges.</p>
+              <p>Spoke at TEDxKrakow on why entrepreneurs are best positioned to use business as a force for genuine good.</p>
             </div>
           </div>
         </div>
@@ -305,6 +316,13 @@ import Layout from "../layouts/Layout.astro";
   .research-content h2   { color: var(--amber); margin-bottom: 0.5rem; }
   .background-content h2 { line-height: 1.15; }
   .recognition-content h2 { margin-bottom: 2rem; }
+
+  /* ── Max-width cap ───────────────────────────────────── */
+  main,
+  .footer {
+    max-width: 1440px;
+    margin-inline: auto;
+  }
 
   /* ── Hero ─────────────────────────────────────────────── */
   .hero {
@@ -550,15 +568,13 @@ import Layout from "../layouts/Layout.astro";
 
   /* ── Section images ───────────────────────────────────── */
   .spotlight-image,
-  .research-image,
-  .background-image {
+  .research-image {
     overflow: hidden;
     border-left: 1px solid var(--border);
   }
 
-  .spotlight-image  { background: var(--bg); }
-  .research-image   { background: var(--bg-2); z-index: 1; }
-  .background-image { background: var(--bg); }
+  .spotlight-image { background: var(--bg); }
+  .research-image  { background: var(--bg-2); z-index: 1; }
 
   .spotlight-image img,
   .research-image img,
@@ -567,6 +583,20 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .research-image img { opacity: 0.7; }
+
+  /* Background image: absolutely positioned with a fixed viewport height
+     so accordion height changes don't resize the photo.
+     Section overflow:hidden clips it at the section boundary. */
+  .background-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38%;
+    height: 100vh;
+    overflow: hidden;
+    border-left: 1px solid var(--border);
+    background: var(--bg);
+  }
 
   /* ── Background ───────────────────────────────────────── */
   .background {
@@ -599,6 +629,13 @@ import Layout from "../layouts/Layout.astro";
     flex-direction: column;
     padding: clamp(3rem, 6vw, 6rem) clamp(2rem, 4vw, 4rem);
     z-index: 1;
+  }
+
+  .bg-intro {
+    color: var(--dim);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    margin-top: 1rem;
   }
 
   .bg-portfolio {
@@ -764,8 +801,17 @@ import Layout from "../layouts/Layout.astro";
     }
 
     .spotlight-image,
-    .research-image,
+    .research-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4/5;
+      order: -2;
+      border-left: none;
+      border-bottom: 1px solid var(--border);
+    }
+
     .background-image {
+      position: static;
       display: block;
       width: 100%;
       aspect-ratio: 4/5;
@@ -858,5 +904,6 @@ import Layout from "../layouts/Layout.astro";
     .background-image {
       aspect-ratio: 3/4;
     }
+
   }
 </style>
