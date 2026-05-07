@@ -584,7 +584,7 @@ import Layout from "../layouts/Layout.astro";
   }
 
   .spotlight-image { background: var(--bg); }
-  .research-image  { background: var(--bg-2); z-index: 1; }
+  .research-image  { background: var(--bg); z-index: 1; }
 
   .spotlight-image img,
   .research-image img,
@@ -815,7 +815,7 @@ import Layout from "../layouts/Layout.astro";
       display: block;
       width: 100%;
       aspect-ratio: 4/5;
-      order: -2;
+      order: -1;
       border-left: none;
       border-bottom: 1px solid var(--border);
     }
@@ -825,7 +825,7 @@ import Layout from "../layouts/Layout.astro";
       display: block;
       width: 100%;
       aspect-ratio: 4/5;
-      order: -2;
+      order: -1;
       border-left: none;
       border-bottom: 1px solid var(--border);
     }
@@ -840,7 +840,7 @@ import Layout from "../layouts/Layout.astro";
     .research-spine,
     .background-spine,
     .recognition-spine {
-      order: -1;
+      order: -2;
       width: 100%;
       height: auto;
       border-right: none;
