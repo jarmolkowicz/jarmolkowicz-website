@@ -67,14 +67,14 @@ import Layout from "../layouts/Layout.astro";
       <div class="research-content">
         <h2>What I'm figuring out.</h2>
         <p>
-          I started using LLMs with the release of ChatGPT in late 2022. Soon after, I noticed
+          I started using LLMs when ChatGPT 3.5 launched in late 2022. Soon after, I noticed
           I couldn't recall details of my AI-assisted work. I was seeking confirmation
           from AI on things I was good at before. I was losing my ability to think on my own.
           Then I realized this wasn't just happening to me.
         </p>
         <p>
-          Modrn Mind is my attempt to help people understand what's happening and figure out
-          what to do about it. The research lives in an open knowledge base on GitHub.
+          Modrn Mind (yes, no "e") is my attempt to help people notice this pattern in themselves
+          and figure out what to do about it. The research lives in an open knowledge base on GitHub.
         </p>
         <a
           href="https://modrnmind.com"
@@ -92,6 +92,7 @@ import Layout from "../layouts/Layout.astro";
                 rel="noopener"
                 class="underlink"
               >Is Nobody Talking to Each Other Anymore?</a>
+              <span class="article-desc">when AI writes our messages and AI summarizes them, what's left of the conversation</span>
             </li>
             <li>
               <a
@@ -100,6 +101,7 @@ import Layout from "../layouts/Layout.astro";
                 rel="noopener"
                 class="underlink"
               >The One Calibration Question That Changes How You Use AI</a>
+              <span class="article-desc">before each prompt, ask how much of you the task actually requires</span>
             </li>
             <li>
               <a
@@ -108,6 +110,7 @@ import Layout from "../layouts/Layout.astro";
                 rel="noopener"
                 class="underlink"
               >Why AI Productivity Feels Like a Trap (and What to Do About It)</a>
+              <span class="article-desc">your output gets better while you quietly get worse, and how to tell the difference</span>
             </li>
           </ul>
         </div>
@@ -183,7 +186,7 @@ import Layout from "../layouts/Layout.astro";
           </details>
 
           <details class="bg-group" name="bg-accordion">
-            <summary class="bg-category">// Research and evidence</summary>
+            <summary class="bg-category">// Research rigor</summary>
             <div class="bg-entries">
               <div class="bg-entry">
                 <h3>From hypothesis to Phase 3 clinical trial</h3>
@@ -240,7 +243,7 @@ import Layout from "../layouts/Layout.astro";
             <span class="rec-num amber">04</span>
             <div class="rec-body">
               <h3>TEDx Speaker</h3>
-              <p>Spoke at TEDxKrakow on why entrepreneurs are best positioned to use business as a force for genuine good.</p>
+              <p>Spoke at TEDxKrakow on entrepreneurs using business as a force for genuine good.</p>
             </div>
           </div>
         </div>
@@ -557,12 +560,20 @@ import Layout from "../layouts/Layout.astro";
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.875rem;
   }
 
   .recent-articles ul li {
     font-size: 1.125rem;
     line-height: 1.5;
+  }
+
+  .article-desc {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--dim);
+    line-height: 1.5;
+    margin-top: 0.2rem;
   }
 
   /* ── Section images ───────────────────────────────────── */

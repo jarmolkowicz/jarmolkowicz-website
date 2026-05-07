@@ -28,14 +28,15 @@ I help companies figure out what AI changes about their business, their people, 
 
 ## 02 — What I'm figuring out.
 
-I started using LLMs with the release of ChatGPT in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
+I started using LLMs when ChatGPT 3.5 launched in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
 
-Modrn Mind is my attempt to help people understand what's happening and figure out what to do about it. The research lives in an open knowledge base on GitHub.
+Modrn Mind (yes, no "e") is my attempt to help people notice this pattern in themselves and figure out what to do about it. The research lives in an open knowledge base on GitHub.
 
 **Recent writing:**
-- Is Nobody Talking to Each Other Anymore?
-- The One Calibration Question That Changes How You Use AI
-- Why AI Productivity Feels Like a Trap (and What to Do About It)
+- [Is Nobody Talking to Each Other Anymore?](https://read.modrnmind.com/p/is-nobody-talking-to-each-other-anymore) — when AI writes our messages and AI summarizes them, what's left of the conversation
+- [The One Calibration Question That Changes How You Use AI](https://read.modrnmind.com/p/the-one-calibration-question-that) — before each prompt, ask how much of *you* the task actually requires
+- [Why AI Productivity Feels Like a Trap (and What to Do About It)](https://read.modrnmind.com/p/why-ai-productivity-feels-like-a) — your output gets better while you quietly get worse, and how to tell the difference
+
 
 ---
 
@@ -76,7 +77,7 @@ Shifting a company that competes on execution and price toward competing on judg
 **Staying fast while becoming certifiable**
 ISO 13485 demands documentation, process control, and audit trails. Startups survive by ignoring all of that. Getting certified without turning the company into something slow and risk-averse. Building the quality system around how the team actually worked. Not the other way around.
 
-**// RESEARCH AND EVIDENCE**
+**// RESEARCH RIGOR**
 
 **From hypothesis to Phase 3 clinical trial**
 Starting with exploratory studies. Refining the ML models. Publishing in peer-reviewed journals. Replicating results. Then a Phase 3 clinical trial in 760 children across the UK and Sweden. A new diagnostic paradigm needs to be proven before anyone will trust it. Building that proof, one study at a time.
@@ -101,7 +102,7 @@ Selected by Google and the Financial Times as one of New Europe's 100 most innov
 Nine weeks at NASA Ames Research Park, working with leaders from around the world on humanity's hardest problems.
 
 **04 — TEDx Speaker**
-Spoke at TEDxKrakow on why entrepreneurs are best positioned to use business as a force for genuine good.
+Spoke at TEDxKrakow on entrepreneurs using business as a force for genuine good.
 
 ---
 
