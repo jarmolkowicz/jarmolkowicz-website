@@ -1,17 +1,862 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+  <main id="main">
+
+    <!-- ── Hero ──────────────────────────────────────────── -->
+    <section class="hero">
+      <header class="hero-header">
+        <span class="mono dim">PAWEŁ JARMOŁKOWICZ</span>
+        <span class="mono dim">CONSULTANT & RESEARCHER</span>
+      </header>
+
+      <div class="hero-body">
+        <h1>
+          I care about what<br />
+          technology does<br />
+          <em class="amber">to</em> people.<span class="cursor">|</span>
+        </h1>
+        <p class="hero-sub">Not only what it does for them.</p>
+      </div>
+
+      <footer class="hero-footer">
+        <div class="hero-rule"></div>
+        <div class="hero-meta">
+          <span class="mono dim">AI STRATEGY &nbsp;·&nbsp; HUMAN IMPACT &nbsp;·&nbsp; RESEARCH</span>
+        </div>
+      </footer>
+    </section>
+
+    <!-- ── Work ───────────────────────────────────────────── -->
+    <section class="spotlight reveal" id="work">
+      <div class="spotlight-spine">
+        <span>// 01 — WORK</span>
+      </div>
+      <div class="spotlight-content">
+        <h2>What I do.</h2>
+        <p>
+          I help you figure out what AI changes about your business, your people,
+          and how you create value.
+        </p>
+        <ul>
+          <li>Where AI creates real advantage for you, and where it won't</li>
+          <li>What it means for your structure, your team, and how decisions get made</li>
+          <li>How to move carefully in regulated, high-stakes environments, where the cost of a wrong call is real</li>
+          <li>Adopting AI without eroding what makes your people good at their work</li>
+        </ul>
+        <a
+          href="https://calendar.app.google/T1xR4TFERp7Xuy7K7"
+          class="btn"
+          target="_blank"
+          rel="noopener"
+        >Let's talk →</a>
+      </div>
+      <div class="spotlight-image">
+        <img src="/images/pawel-01.jpg" alt="Paweł Jarmołkowicz" />
+      </div>
+    </section>
+
+    <!-- ── Research ───────────────────────────────────────── -->
+    <section class="research reveal" id="research">
+      <div class="research-ghost" aria-hidden="true">MM</div>
+      <div class="research-spine">
+        <span>// 02 — RESEARCH</span>
+      </div>
+      <div class="research-content">
+        <h2>What I'm now trying to understand.</h2>
+        <p>
+          I started using LLMs with the release of ChatGPT in late 2022. Soon after, I noticed
+          that I couldn't recall details of my AI-assisted work. I was seeking confirmation
+          from AI on things I was good at before. My ability to think independently was eroding.
+          Then I realized this wasn't just happening to me.
+        </p>
+        <p>
+          Modrn Mind is my attempt to help people navigate it consciously. The research lives
+          in an open knowledge base on GitHub, structured so both you and your AI
+          can navigate it.
+        </p>
+        <a
+          href="https://modrnmind.com"
+          class="btn btn--amber"
+          target="_blank"
+          rel="noopener"
+        >Explore the Knowledge Base →</a>
+        <div class="recent-articles">
+          <span class="recent-articles-label mono dim">Recent writing</span>
+          <ul>
+            <li>
+              <a
+                href="https://read.modrnmind.com/p/is-nobody-talking-to-each-other-anymore"
+                target="_blank"
+                rel="noopener"
+                class="underlink"
+              >Is Nobody Talking to Each Other Anymore?</a>
+            </li>
+            <li>
+              <a
+                href="https://read.modrnmind.com/p/the-one-calibration-question-that"
+                target="_blank"
+                rel="noopener"
+                class="underlink"
+              >The One Calibration Question That Changes How You Use AI</a>
+            </li>
+            <li>
+              <a
+                href="https://read.modrnmind.com/p/why-ai-productivity-feels-like-a"
+                target="_blank"
+                rel="noopener"
+                class="underlink"
+              >Why AI Productivity Feels Like a Trap (and What to Do About It)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="research-image">
+        <img src="/images/pawel-02.jpg" alt="Paweł Jarmołkowicz" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ── Background ─────────────────────────────────────── -->
+    <section class="background reveal" id="background">
+      <div class="bg-ghost" aria-hidden="true">20</div>
+      <div class="background-spine">
+        <span>// 03 — BACKGROUND</span>
+      </div>
+      <div class="background-content">
+        <h2>Twenty years.<br />Still curious.</h2>
+        <div class="bg-portfolio">
+
+          <details class="bg-group" name="bg-accordion" open>
+            <summary class="bg-category">// Technical imagination</summary>
+            <div class="bg-entries">
+              <div class="bg-entry">
+                <h3>Using tablet gameplay to detect autism early</h3>
+                <p>Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Will the model hold in the real world?</h3>
+                <p>ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Monitoring therapy progress automatically</h3>
+                <p>Using sensors and ML to track whether a child's therapy is working over time, without adding burden to therapists or parents. Removing the reliance on subjective assessment at annual reviews.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Digitizing a blood sample</h3>
+                <p>Miniaturizing satellite hyperspectral imaging into a smartphone dongle. Point it at a blood sample, create a digital spectral cube, transmit it to the cloud for analysis, receive a diagnosis. Designed for places with mobile connectivity but no laboratory infrastructure.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Rapid STD testing in a ring</h3>
+                <p>A wearable medical device with a replaceable cartridge containing microneedles and a biochip, testing for four common STDs in minutes. No clinic, no lab, no waiting.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="bg-group" name="bg-accordion">
+            <summary class="bg-category">// Commercial navigation</summary>
+            <div class="bg-entries">
+              <div class="bg-entry">
+                <h3>A business model for something that doesn't exist yet</h3>
+                <p>Building a commercial model for a digital health product with no category in any healthcare reimbursement framework, no established buyer, and nothing comparable to point to.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>How to create value before the science is complete</h3>
+                <p>Clinical validation takes years. Replication takes more. How to start delivering value to users, building trust with practitioners, and staying financially alive while the evidence base is still being built.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>When clients want ML but aren't ready for it</h3>
+                <p>Companies arrive asking for machine learning. What they actually need first: clean data, infrastructure to move it, people who know what to do with it. Building the foundations that make ML possible before ML itself.</p>
+              </div>
+            </div>
+          </details>
+
+          <details class="bg-group" name="bg-accordion">
+            <summary class="bg-category">// Organizational movement</summary>
+            <div class="bg-entries">
+              <div class="bg-entry">
+                <h3>Selling something a sales team doesn't understand</h3>
+                <p>Getting a sales organization to sell data and ML services when they've never done it, don't understand what they're selling, and their bonuses depend on services they already know how to close.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Turning a software company into an advisory firm</h3>
+                <p>Shifting a company that competes on execution and price toward competing on judgment and strategy. Different positioning, different talent, different sales process, different client relationship.</p>
+              </div>
+              <div class="bg-entry">
+                <h3>Behavioral science at scale</h3>
+                <p>Mapping patient behavior across ten countries simultaneously. Twenty people: behavioral scientists, analysts, and designers, working in different healthcare systems, languages, and cultural contexts. Keeping methodology consistent and findings comparable across all of it.</p>
+              </div>
+            </div>
+          </details>
+
+        </div>
+      </div>
+      <div class="background-image">
+        <img src="/images/pawel-03.jpg" alt="Paweł Jarmołkowicz" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ── Recognition ────────────────────────────────────── -->
+    <section class="recognition reveal" id="recognition">
+      <div class="recognition-spine">
+        <span>// 04 — RECOGNITION</span>
+      </div>
+      <div class="recognition-content">
+        <h2>The work got noticed.</h2>
+        <div class="rec-table">
+          <div class="rec-row">
+            <span class="rec-num amber">01</span>
+            <div class="rec-body">
+              <h3>MIT Innovator Under 35</h3>
+              <p>Named by MIT Technology Review for work on early autism screening using AI and games.</p>
+            </div>
+          </div>
+          <div class="rec-row">
+            <span class="rec-num amber">02</span>
+            <div class="rec-body">
+              <h3>New Europe 100 Challengers</h3>
+              <p>Selected by Google and the Financial Times as one of New Europe's 100 most innovative changemakers.</p>
+            </div>
+          </div>
+          <div class="rec-row">
+            <span class="rec-num amber">03</span>
+            <div class="rec-body">
+              <h3>Singularity University Fellow</h3>
+              <p>Nine weeks at NASA Ames Research Park, working with leaders from around the world on humanity's hardest problems.</p>
+            </div>
+          </div>
+          <div class="rec-row">
+            <span class="rec-num amber">04</span>
+            <div class="rec-body">
+              <h3>TEDx Speaker</h3>
+              <p>Business is the most powerful man-made force on the planet. Entrepreneurs can use it as a force for good, and take on real challenges.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <span class="amber">_</span>&nbsp;
+    <a href="mailto:pawel@jarmolkowicz.com">pawel@jarmolkowicz.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://modrnmind.com" target="_blank" rel="noopener">modrnmind.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/jarmolkowicz/" target="_blank" rel="noopener">linkedin</a>
+  </footer>
+</Layout>
+
+<style>
+  /* ── Shared: spine ───────────────────────────────────── */
+  .spotlight-spine,
+  .research-spine,
+  .background-spine,
+  .recognition-spine {
+    border-right: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
+  .background-spine,
+  .recognition-spine {
+    align-items: flex-start;
+    padding: clamp(4rem, 8vw, 7rem) 0;
+  }
+
+  .research-spine,
+  .background-spine {
+    z-index: 1;
+  }
+
+  .spotlight-spine span,
+  .research-spine span,
+  .background-spine span,
+  .recognition-spine span {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+
+  /* ── Shared: section heading ──────────────────────────── */
+  .spotlight-content h2,
+  .research-content h2,
+  .background-content h2,
+  .recognition-content h2 {
+    font-family: var(--serif);
+    font-size: clamp(2rem, 3.5vw, 3.25rem);
+    font-style: italic;
+    font-weight: 300;
+    font-variation-settings: "opsz" 72, "WONK" 1;
+    line-height: 1.1;
+  }
+
+  .spotlight-content h2  { margin-bottom: 0.5rem; }
+  .research-content h2   { color: var(--amber); margin-bottom: 0.5rem; }
+  .background-content h2 { line-height: 1.15; }
+  .recognition-content h2 { margin-bottom: 2rem; }
+
+  /* ── Hero ─────────────────────────────────────────────── */
+  .hero {
+    min-height: 100svh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 2rem var(--edge);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+  }
+
+  .hero-body h1 {
+    font-family: var(--serif);
+    font-size: clamp(4rem, 10vw, 9rem);
+    font-weight: 300;
+    font-style: italic;
+    font-variation-settings: "opsz" 144, "WONK" 1;
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    max-width: 14ch;
+  }
+
+  .hero-body h1 .amber {
+    font-style: normal;
+    font-variation-settings: "opsz" 144, "WONK" 1;
+  }
+
+  .hero-sub {
+    font-family: var(--serif);
+    font-size: clamp(1.25rem, 2.8vw, 2.25rem);
+    font-style: italic;
+    font-weight: 300;
+    font-variation-settings: "opsz" 72;
+    color: var(--dim);
+    margin-top: 1.25rem;
+    max-width: none;
+  }
+
+  .hero-footer {
+    padding-top: 2rem;
+  }
+
+  .hero-rule {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+
+  .hero-rule::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: clamp(3rem, 8vw, 7rem);
+    height: 1px;
+    background: var(--amber);
+  }
+
+  .hero-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+  }
+
+  /* ── Button ───────────────────────────────────────────── */
+  .btn {
+    display: inline-block;
+    padding: 0.875rem 1.875rem;
+    border: 1px solid var(--dim);
+    font-family: var(--mono);
+    font-size: 0.9375rem;
+    letter-spacing: 0.06em;
+    color: var(--text);
+    background: transparent;
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+    white-space: nowrap;
+  }
+
+  .btn:hover {
+    border-color: var(--amber);
+    color: var(--amber);
+  }
+
+  .btn--amber {
+    border-color: var(--amber);
+    color: var(--amber);
+  }
+
+  .btn--amber:hover {
+    background: var(--amber);
+    color: var(--bg);
+  }
+
+  /* ── Work ─────────────────────────────────────────────── */
+  .spotlight {
+    display: grid;
+    grid-template-columns: 3rem 1fr 38%;
+    min-height: 72vh;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .spotlight-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(3rem, 6vw, 6rem) clamp(2rem, 4vw, 4rem);
+    gap: 1rem;
+  }
+
+  .spotlight-content p {
+    color: var(--dim);
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .spotlight-content ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 0.5rem 0;
+  }
+
+  .spotlight-content ul li {
+    font-size: 1.0625rem;
+    color: var(--dim);
+    padding-left: 1.5rem;
+    position: relative;
+  }
+
+  .spotlight-content ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--amber);
+    font-size: 0.875rem;
+  }
+
+  .underlink {
+    color: var(--text);
+    border-bottom: 1px solid var(--dim-2);
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .underlink:hover {
+    color: var(--amber);
+    border-color: var(--amber);
+  }
+
+  /* ── Research ─────────────────────────────────────────── */
+  .research {
+    display: grid;
+    grid-template-columns: 3rem 1fr 38%;
+    min-height: 72vh;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+    position: relative;
+    background: var(--bg-2);
+  }
+
+  .research-ghost {
+    position: absolute;
+    right: 38%;
+    top: 50%;
+    transform: translateY(-50%) translateX(30%);
+    font-family: var(--serif);
+    font-size: 28vw;
+    font-weight: 900;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(232, 160, 32, 0.07);
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
+  }
+
+  .research-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: clamp(3rem, 6vw, 6rem) clamp(2rem, 4vw, 4rem);
+    gap: 1rem;
+    z-index: 1;
+  }
+
+  .research-content p {
+    color: var(--dim);
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .recent-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .recent-articles-label {
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+  }
+
+  .recent-articles ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .recent-articles ul li {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  /* ── Section images ───────────────────────────────────── */
+  .spotlight-image,
+  .research-image,
+  .background-image {
+    overflow: hidden;
+    border-left: 1px solid var(--border);
+  }
+
+  .spotlight-image  { background: var(--bg); }
+  .research-image   { background: var(--bg-2); z-index: 1; }
+  .background-image { background: var(--bg); }
+
+  .spotlight-image img,
+  .research-image img,
+  .background-image img {
+    object-position: center top;
+  }
+
+  .research-image img { opacity: 0.7; }
+
+  /* ── Background ───────────────────────────────────────── */
+  .background {
+    display: grid;
+    grid-template-columns: 3rem 1fr 38%;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bg-ghost {
+    position: absolute;
+    left: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--serif);
+    font-size: 45vw;
+    font-weight: 900;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(237, 233, 224, 0.03);
+    line-height: 1;
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
+  }
+
+  .background-content {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(3rem, 6vw, 6rem) clamp(2rem, 4vw, 4rem);
+    z-index: 1;
+  }
+
+  .bg-portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .bg-group {
+    border-top: 1px solid var(--border);
+  }
+
+  .bg-group:first-child {
+    border-top: none;
+  }
+
+  .bg-group > summary {
+    list-style: none;
+  }
+
+  .bg-group > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .bg-category {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+  }
+
+  .bg-category:hover {
+    opacity: 0.7;
+  }
+
+  .bg-category::after {
+    content: "+";
+    font-size: 1.125rem;
+    letter-spacing: 0;
+  }
+
+  details[open] > .bg-category::after {
+    content: "×";
+  }
+
+  .bg-entries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0.5rem;
+  }
+
+  .bg-entry {
+    padding: 1.5rem 2.5rem 1.5rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .bg-entry:nth-child(even) {
+    padding-left: 2.5rem;
+    padding-right: 0;
+    border-left: 1px solid var(--border);
+  }
+
+  .bg-entry h3 {
+    font-family: var(--serif);
+    font-size: clamp(1.125rem, 1.6vw, 1.375rem);
+    font-style: italic;
+    font-weight: 300;
+    font-variation-settings: "opsz" 36, "WONK" 1;
+    line-height: 1.25;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+
+  .bg-entry p {
+    font-size: 1.0625rem;
+    color: var(--dim);
+    line-height: 1.7;
+  }
+
+  /* ── Recognition ──────────────────────────────────────── */
+  .recognition {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .recognition-content {
+    padding: clamp(4rem, 8vw, 7rem) var(--edge);
+  }
+
+  .rec-table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rec-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 2rem;
+    padding: 1.75rem 0;
+    border-top: 1px solid var(--border);
+    align-items: start;
+  }
+
+  .rec-num {
+    font-family: var(--mono);
+    font-size: 0.875rem;
+    letter-spacing: 0.08em;
+    padding-top: 0.25rem;
+  }
+
+  .rec-body h3 {
+    font-family: var(--serif);
+    font-size: clamp(1rem, 1.8vw, 1.375rem);
+    font-style: italic;
+    font-weight: 300;
+    font-variation-settings: "opsz" 36, "WONK" 1;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .rec-body p {
+    font-size: 1.0625rem;
+    color: var(--dim);
+    line-height: 1.7;
+    max-width: 52ch;
+  }
+
+  /* ── Footer ───────────────────────────────────────────── */
+  .footer {
+    padding: 2rem var(--edge);
+    font-family: var(--mono);
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    color: var(--dim);
+    border-top: 1px solid var(--border);
+  }
+
+  .footer a {
+    color: var(--dim);
+    transition: color 0.2s;
+  }
+
+  .footer a:hover {
+    color: var(--amber);
+  }
+
+  /* ── Responsive ───────────────────────────────────────── */
+  @media (max-width: 900px) {
+    .spotlight,
+    .research {
+      display: flex;
+      flex-direction: column;
+      min-height: auto;
+    }
+
+    .spotlight-image,
+    .research-image,
+    .background-image {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4/5;
+      order: -2;
+      border-left: none;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .spotlight-image img,
+    .research-image img,
+    .background-image img {
+      object-position: center center;
+    }
+
+    .spotlight-spine,
+    .research-spine,
+    .background-spine,
+    .recognition-spine {
+      order: -1;
+      width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem var(--edge);
+      justify-content: flex-start;
+    }
+
+    .spotlight-spine span,
+    .research-spine span,
+    .background-spine span,
+    .recognition-spine span {
+      writing-mode: horizontal-tb;
+      transform: none;
+    }
+
+    .background,
+    .recognition {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bg-entries {
+      grid-template-columns: 1fr;
+    }
+
+    .bg-entry:nth-child(even) {
+      padding-left: 0;
+      border-left: none;
+    }
+
+    .recognition-content {
+      padding: 2.5rem var(--edge);
+    }
+
+    .research-ghost {
+      display: none;
+    }
+
+    .spotlight-content,
+    .research-content,
+    .background-content {
+      padding: 2.5rem var(--edge);
+    }
+
+    .hero-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .hero-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+    }
+
+    .rec-row {
+      grid-template-columns: 2.5rem 1fr;
+      gap: 1.25rem;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .hero-body h1 {
+      font-size: clamp(3rem, 14vw, 5rem);
+    }
+
+    .spotlight-image,
+    .research-image,
+    .background-image {
+      aspect-ratio: 3/4;
+    }
+  }
+</style>
