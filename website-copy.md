@@ -15,7 +15,7 @@ I care about what technology does *to* people.
 
 ---
 
-## 01 — What I do.
+## 01 — Here's how I help.
 
 I help companies figure out what AI changes about their business, their people, and how they create value.
 
@@ -26,11 +26,11 @@ I help companies figure out what AI changes about their business, their people, 
 
 ---
 
-## 02 — What I'm now trying to understand.
+## 02 — What I'm figuring out.
 
-I started using LLMs with the release of ChatGPT in late 2022. Soon after, I noticed that I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. My ability to think independently was eroding. Then I realized this wasn't just happening to me.
+I started using LLMs with the release of ChatGPT in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
 
-Modrn Mind is my attempt to help people navigate it consciously. The research lives in an open knowledge base on GitHub, structured so both you and your AI can navigate it.
+Modrn Mind is my attempt to help people understand what's happening and figure out what to do about it. The research lives in an open knowledge base on GitHub.
 
 **Recent writing:**
 - Is Nobody Talking to Each Other Anymore?
@@ -41,7 +41,7 @@ Modrn Mind is my attempt to help people navigate it consciously. The research li
 
 ## 03 — Twenty years. Still curious.
 
-A selection of the problems I've worked on. Across healthtech, machine learning, and organizational change.
+A selection of the problems I've worked on.
 
 **// TECHNICAL IMAGINATION**
 
@@ -85,7 +85,7 @@ Starting with exploratory studies. Refining the ML models. Publishing in peer-re
 ML tools trained in controlled research settings perform differently when deployed in real environments. Different devices, different lighting, different operator behavior. Predicting and managing that gap before it becomes a product failure.
 
 **Building a global research network**
-At one point, collaborating with universities, research centers, and therapeutic centers across multiple countries. Each with their own protocols, ethics boards, and institutional timelines. Building the partnerships, agreements, and coordination infrastructure to make joint research possible and keep it scientifically consistent.
+At one point, collaborating with universities, research centers, and therapeutic centers across multiple countries. Each with their own protocols, ethics boards, and timelines. Building the agreements and shared methodology to make joint research possible and keep it scientifically honest.
 
 ---
 
