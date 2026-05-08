@@ -11,13 +11,13 @@ I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Tags:** AI STRATEGY · HUMAN IMPACT · RESEARCH
+**Tags:** AI ADOPTION · HUMAN IMPLICATIONS · STRATEGY & OPERATIONS · RESEARCH
 
 ---
 
 ## 01 — Here's how I help.
 
-I help companies figure out what AI changes about their business, their people, and how they create value.
+I help companies understand what AI changes in how their people think, work, and create value. I focus on AI adoption and its human implications.
 
 - Where AI creates real advantage for you, and where it won't
 - What it means for your structure, your team, and how decisions get made
