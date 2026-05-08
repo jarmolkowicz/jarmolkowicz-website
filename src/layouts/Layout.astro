@@ -4,8 +4,8 @@ interface Props {
   description?: string;
 }
 const {
-  title = "Paweł Jarmołkowicz",
-  description = "AI strategy consultant and researcher. Studying what AI does to professional thinking, work, and decision-making. Creator of Modrn Mind.",
+  title = "Paweł Jarmołkowicz — AI Strategy Consultant & Researcher",
+  description = "AI strategy consultant and researcher helping companies adopt AI without eroding human judgment. MIT Innovator Under 35. Creator of Modrn Mind — research on what AI does to professional thinking.",
 } = Astro.props;
 ---
 
@@ -25,7 +25,57 @@ const {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    <link rel="canonical" href="https://jarmolkowicz.com/" />
+    <meta name="author" content="Paweł Jarmołkowicz" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://jarmolkowicz.com/#person",
+            "name": "Paweł Jarmołkowicz",
+            "alternateName": "Pawel Jarmolkowicz",
+            "url": "https://jarmolkowicz.com",
+            "email": "pawel@jarmolkowicz.com",
+            "image": "https://jarmolkowicz.com/images/pawel-01.jpg",
+            "jobTitle": "AI Strategy Consultant and Researcher",
+            "description": "AI strategy consultant and researcher helping companies understand and adopt AI without eroding human thinking, judgment, and expertise. MIT Innovator Under 35. Creator of Modrn Mind.",
+            "knowsAbout": [
+              "AI Strategy",
+              "AI Adoption",
+              "Human-AI Collaboration",
+              "Organizational Change",
+              "Digital Health",
+              "Machine Learning",
+              "Clinical Research"
+            ],
+            "award": [
+              "MIT Technology Review Innovator Under 35",
+              "New Europe 100 Challengers — Google and Financial Times",
+              "Singularity University Fellow",
+              "TEDx Speaker"
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/in/jarmolkowicz/",
+              "https://modrnmind.com",
+              "https://read.modrnmind.com"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://jarmolkowicz.com/#website",
+            "url": "https://jarmolkowicz.com",
+            "name": "Paweł Jarmołkowicz",
+            "description": "AI strategy consultant and researcher. Studying what AI does to professional thinking, work, and decision-making.",
+            "author": {
+              "@id": "https://jarmolkowicz.com/#person"
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
