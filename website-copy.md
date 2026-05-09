@@ -4,23 +4,23 @@
 
 ## Hero
 
-**Header:** PAWEŁ JARMOŁKOWICZ · CONSULTANT & RESEARCHER
+**Header:** PAWEŁ JARMOŁKOWICZ · INNOVATION PRACTITIONER-RESEARCHER
 
 **Headline:**
 I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Tags:** AI ADOPTION · HUMAN IMPLICATIONS · STRATEGY & OPERATIONS · RESEARCH
+**Tags:** AI ADOPTION · STRATEGY & IMPLEMENTATION · HUMAN IMPLICATIONS
 
 ---
 
-## 01 — Here's how I help.
+## 01 — How I help.
 
-I help companies understand what AI changes in how their people think, work, and create value. I focus on AI adoption and its human implications.
+I work with organizations on what AI changes about their business model, operations, culture, and how teams work and create value. What the work itself becomes when AI is part of it, and what's worth preserving in the shift.
 
-- Where AI creates real advantage for you, and where it won't
-- What it means for your structure, your team, and how decisions get made
+- Where AI creates real advantage, and how it shifts the value your business creates
+- What it means for your structure, your team, and how they work
 - How to adopt AI without eroding what makes your people good at their work
 - How to move carefully in regulated, high-stakes environments, where the cost of a wrong call is real
 
