@@ -1,12 +1,15 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 interface Props {
   title?: string;
   description?: string;
 }
 const {
-  title = "Paweł Jarmołkowicz",
+  title = "Paweł Jarmołkowicz — Innovation Consultant & Researcher",
   description = "Innovation practitioner-researcher on AI's effects on work, organizations, and people. Creator of Modrn Mind. MIT Innovator Under 35.",
 } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, 'https://jarmolkowicz.com');
 ---
 
 <!doctype html>
@@ -18,19 +21,19 @@ const {
     <meta name="description" content={description} />
     <meta name="keywords" content="Paweł Jarmołkowicz, Modrn Mind, innovation practitioner-researcher, AI adoption, AI strategy, human implications of AI, Human-AI collaboration, AI and work, AI and organizations, AI and decision-making, AI and agency, innovation research" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jarmolkowicz.com/" />
+    <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content="https://jarmolkowicz.com/images/pawel-01.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <link rel="canonical" href="https://jarmolkowicz.com/" />
+    <link rel="canonical" href={canonicalURL} />
     <meta name="author" content="Paweł Jarmołkowicz" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -89,6 +92,7 @@ const {
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,300;0,400;1,300&display=swap"
       rel="stylesheet"
     />
+    <ClientRouter />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -105,16 +109,20 @@ const {
     </div>
 
     <script>
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) entry.target.classList.add("visible");
-          });
-        },
-        { threshold: 0.06 }
-      );
+      function initReveal() {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) entry.target.classList.add("visible");
+            });
+          },
+          { threshold: 0.06 }
+        );
+        document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+      }
 
-      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+      // Runs on first load and after every View Transition
+      document.addEventListener("astro:page-load", initReveal);
     </script>
 
     <script>
