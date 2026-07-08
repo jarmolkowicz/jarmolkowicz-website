@@ -21,10 +21,12 @@ I care about what technology does *to* people.
 
 A company is only as good as what its people can actually do. AI can make the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the results hide it. I help software consulting teams get real gains from AI without wearing down their people's skills, their relationships, and their edge.
 
-- Where AI gives you a real advantage, and where it just makes you faster at the wrong thing
-- How discovery, strategy, and delivery change as AI writes more of the code
-- How to bring in AI without your people getting worse at their jobs
-- How to move carefully in regulated, high-stakes work, where a wrong call is expensive
+- Rethink what you offer as AI shifts where the value is
+- Reshape discovery, design, and delivery as AI does more of the execution
+- Bring AI into the work and keep your people's skills and judgment sharp
+- Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
+
+I don't just advise. I embed, run the enablement, and stay until the change holds. That kind of work means one or two clients at a time. Right now both slots are taken: two software agencies, one on bringing AI into their delivery, one on rethinking their offering as AI shifts the value. If that's the work you need, reach out and let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
@@ -34,12 +36,13 @@ A company is only as good as what its people can actually do. AI can make the wo
 
 I started using LLMs when ChatGPT 3.5 launched in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
 
-Modrn Mind (yes, no "e") is my research into what AI does to those of us who think for a living, how it affects our agency, judgment, and relationships, and what keeps professionals valuable as AI does more. It's my attempt to help people notice this pattern in themselves and figure out what to do about it. The research lives in an open knowledge base on GitHub.
+Modrn Mind (yes, no "e") is my research into what AI does to those of us who think for a living. I research how it affects our agency, judgment, and relationships, and what keeps our work valuable as AI does more. It's my attempt to help people notice this pattern in themselves and figure out what to do about it. The research lives in an open knowledge base on GitHub.
 
 **CTA:** Explore the Knowledge Base → (https://modrnmind.com)
 
 **Recent writing:**
-- [Is Nobody Talking to Each Other Anymore?](https://read.modrnmind.com/p/is-nobody-talking-to-each-other-anymore) — when AI writes our messages and AI summarizes them, what's left of the conversation
+- [Charting the Course: Strategic Transformation for Software Agencies in the AI Economy](https://read.modrnmind.com/p/charting-the-course-strategic-transformation) — why software agencies have to move from commodity delivery to the value only people can create
+- [The Human Edge: Cultivating the Human Wisdom AI Can't Automate](https://read.modrnmind.com/p/the-human-edge-cultivating-the-human) — as AI takes over the craft, the premium shifts to the human wisdom it can't copy
 - [The One Calibration Question That Changes How You Use AI](https://read.modrnmind.com/p/the-one-calibration-question-that) — before each prompt, ask how much of *you* the task actually requires
 - [Why AI Productivity Feels Like a Trap (and What to Do About It)](https://read.modrnmind.com/p/why-ai-productivity-feels-like-a) — your output gets better while you quietly get worse, and how to tell the difference
 
