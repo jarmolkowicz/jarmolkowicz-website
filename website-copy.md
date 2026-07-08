@@ -1,6 +1,6 @@
 # Website Copy: jarmolkowicz.com
 
-> Synced from `src/pages/index.astro` on 2026-07-08. This doc mirrors the live copy. Edit the Astro source for changes to go live.
+> Synced from `src/pages/index.astro` on 2026-07-09. This doc mirrors the live copy. Edit the Astro source for changes to go live.
 
 ---
 
@@ -13,20 +13,20 @@ I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Meta tags:** AI · VALUE CREATION · HUMAN CAPABILITY
+**Meta tags:** AI ENABLEMENT · VALUE INNOVATION · SOFTWARE SERVICES
 
 ---
 
 ## 01 — WORK · How I help.
 
-A company is only as good as what its people can actually do. AI can make the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the results hide it. I help software consulting teams get real gains from AI without wearing down their people's skills, their relationships, and their edge.
+I help software services companies get faster and more profitable with AI, and keep the people who make them worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the numbers still look fine.
 
 - Rethink what you offer as AI shifts where the value is
 - Reshape discovery, design, and delivery as AI does more of the execution
 - Bring AI into the work and keep your people's skills and judgment sharp
 - Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
 
-I don't just advise. I embed, run the enablement, and stay until the change holds. That kind of work means one or two clients at a time. Right now both slots are taken: two software agencies, one on bringing AI into their delivery, one on rethinking their offering as AI shifts the value. If that's the work you need, reach out and let's plan the next one.
+I don't just advise. I embed, run the enablement, and stay until the change holds. That depth means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
@@ -36,7 +36,9 @@ I don't just advise. I embed, run the enablement, and stay until the change hold
 
 I started using LLMs when ChatGPT 3.5 launched in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
 
-Modrn Mind (yes, no "e") is my research into what AI does to those of us who think for a living. I research how it affects our agency, judgment, and relationships, and what keeps our work valuable as AI does more. It's my attempt to help people notice this pattern in themselves and figure out what to do about it. The research lives in an open knowledge base on GitHub.
+Modrn Mind (yes, no "e") is my research into what AI does to those of us who think for a living. I look at how AI use affects our agency, judgment, and relationships, and what keeps our work valuable as AI does more. It's an attempt to help people notice this pattern in themselves and do something about it. The research lives in an open knowledge base on GitHub, and it's becoming a book.
+
+None of this is separate from the client work. I've seen how AI quietly wears people down, and that's exactly what I help teams avoid.
 
 **CTA:** Explore the Knowledge Base → (https://modrnmind.com)
 
@@ -50,18 +52,18 @@ Modrn Mind (yes, no "e") is my research into what AI does to those of us who thi
 
 ## 03 — BACKGROUND · Twenty years. Still curious.
 
-A selection of the problems I've worked on.
+Different fields, but it's the same problem I still work on. New technology only pays off when the people and the business move with it.
 
-**// Technical imagination**
+**// Organizational movement**
 
-**Detecting autism from the way a child plays**
-Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.
+**Selling something a sales team doesn't understand**
+Getting a sales organization to sell data and ML services when they don't understand what they're selling, and their bonuses depend on services they already know how to close.
 
-**Turning a phone into a blood lab**
-Miniaturizing satellite hyperspectral imaging into a smartphone dongle. Point it at a blood sample, create a digital spectral cube, transmit it to the cloud for analysis, receive a diagnosis. Designed for places with mobile connectivity but no laboratory infrastructure.
+**Turning a software company into an advisory firm**
+Shifting a company that competes on execution and price toward competing on value and results. Different positioning, different talent, different sales process, different client relationship.
 
-**Rapid STD testing in a ring**
-A wearable medical device with a replaceable cartridge containing microneedles and a biochip, testing for four common STDs in minutes. No clinic, no lab, no waiting.
+**Staying fast while becoming certifiable**
+ISO 13485 demands documentation, process control, and audit trails. Getting certified without turning the company into something slow and risk-averse. Building the quality system around maintaining speed and flexibility to explore new ideas.
 
 **// Commercial navigation**
 
@@ -74,16 +76,16 @@ Scientific and clinical validation takes years, leaving the question of how to s
 **When clients want ML but aren't ready for it**
 Companies arrive asking for machine learning. What they actually need first: clean data, infrastructure to move it, people who know what to do with it. Building the foundations that make ML possible before ML itself.
 
-**// Organizational movement**
+**// Technical imagination**
 
-**Selling something a sales team doesn't understand**
-Getting a sales organization to sell data and ML services when they don't understand what they're selling, and their bonuses depend on services they already know how to close.
+**Detecting autism from the way a child plays**
+Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.
 
-**Turning a software company into an advisory firm**
-Shifting a company that competes on execution and price toward competing on value and results. Different positioning, different talent, different sales process, different client relationship.
+**Turning a phone into a blood lab**
+Miniaturizing satellite hyperspectral imaging into a smartphone dongle. Point it at a blood sample, create a digital spectral cube, transmit it to the cloud for analysis, receive a diagnosis. Designed for places with mobile connectivity but no laboratory infrastructure.
 
-**Staying fast while becoming certifiable**
-ISO 13485 demands documentation, process control, and audit trails. Getting certified without turning the company into something slow and risk-averse. Building the quality system around maintaining speed and flexibility to explore new ideas.
+**Rapid STD testing in a ring**
+A wearable medical device with a replaceable cartridge containing microneedles and a biochip, testing for four common STDs in minutes. No clinic, no lab, no waiting.
 
 **// Research rigor**
 
