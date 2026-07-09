@@ -19,7 +19,7 @@ I care about what technology does *to* people.
 
 ## 01 — WORK · How I help.
 
-I help software services companies get faster and more profitable with AI, and keep the people who make them worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the numbers still look fine.
+I help software services companies get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the numbers still look fine.
 
 - Rethink what you offer as AI shifts where the value is
 - Reshape discovery, design, and delivery as AI does more of the execution
