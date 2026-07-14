@@ -13,7 +13,7 @@ I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Meta tags:** AI ENABLEMENT · VALUE INNOVATION · SOFTWARE SERVICES
+**Meta tags:** AI TRAINING & ENABLEMENT · VALUE INNOVATION · CONSULTING & SOFTWARE SERVICES
 
 ---
 
@@ -21,12 +21,12 @@ I care about what technology does *to* people.
 
 I help software services companies get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the numbers still look fine.
 
+- Train your people to work well with AI and keep their skills and judgment sharp
 - Rethink what you offer as AI shifts where the value is
 - Reshape discovery, design, and delivery as AI does more of the execution
-- Bring AI into the work and keep your people's skills and judgment sharp
 - Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
 
-I don't just advise. I embed, run the enablement, and stay until the change holds. That depth means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+I don't just advise. I embed, run the training and enablement, and stay until the change holds. That depth means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
