@@ -19,14 +19,14 @@ I care about what technology does *to* people.
 
 ## 01 — WORK · How I help.
 
-I help software services companies get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The output goes up, the skill goes down, and for a while the numbers still look fine.
+I help consulting and software services companies get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The skills decay, the deliverables become indistinguishable from everyone else's AI output, and by the time it shows, your edge is gone.
 
 - Train your people to work well with AI and keep their skills and judgment sharp
 - Rethink what you offer as AI shifts where the value is
 - Reshape discovery, design, and delivery as AI does more of the execution
 - Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
 
-I don't just advise. I embed, run the training and enablement, and stay until the change holds. That depth means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
@@ -37,8 +37,6 @@ I don't just advise. I embed, run the training and enablement, and stay until th
 I started using LLMs when ChatGPT 3.5 launched in late 2022. Soon after, I noticed I couldn't recall details of my AI-assisted work. I was seeking confirmation from AI on things I was good at before. I was losing my ability to think on my own. Then I realized this wasn't just happening to me.
 
 Modrn Mind (yes, no "e") is my research into what AI does to those of us who think for a living. I look at how AI use affects our agency, judgment, and relationships, and what keeps our work valuable as AI does more. It's an attempt to help people notice this pattern in themselves and do something about it. The research lives in an open knowledge base on GitHub, and it's becoming a book.
-
-None of this is separate from the client work. I've seen how AI quietly wears people down, and that's exactly what I help teams avoid.
 
 **CTA:** Explore the Knowledge Base → (https://modrnmind.com)
 
