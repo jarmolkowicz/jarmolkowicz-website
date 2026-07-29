@@ -13,7 +13,7 @@ I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Hero footer line:** AI training & enablement for consulting firms. And what to offer as AI shifts where the value is.
+**Hero footer:** section navigation — WORK · RESEARCH · BACKGROUND · RECOGNITION
 
 ---
 

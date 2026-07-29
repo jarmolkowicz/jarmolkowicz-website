@@ -22,12 +22,12 @@ import Layout from "../layouts/Layout.astro";
 
       <footer class="hero-footer">
         <div class="hero-rule"></div>
-        <div class="hero-meta">
-          <span class="mono dim"
-            >AI training &amp; enablement for consulting firms. And what to
-            offer as AI shifts where the value is.</span
-          >
-        </div>
+        <nav class="hero-meta" aria-label="Sections">
+          <a class="mono dim" href="#work">WORK</a>
+          <a class="mono dim" href="#research">RESEARCH</a>
+          <a class="mono dim" href="#background">BACKGROUND</a>
+          <a class="mono dim" href="#recognition">RECOGNITION</a>
+        </nav>
       </footer>
     </section>
 
@@ -573,7 +573,15 @@ import Layout from "../layouts/Layout.astro";
     align-items: center;
     font-family: var(--mono);
     font-size: 0.8125rem;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.15em;
+  }
+
+  .hero-meta a {
+    transition: color 0.2s;
+  }
+
+  .hero-meta a:hover {
+    color: var(--amber);
   }
 
   /* ── Button ───────────────────────────────────────────── */
