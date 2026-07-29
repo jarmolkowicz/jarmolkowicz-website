@@ -26,7 +26,7 @@ I help consulting firms get faster and more profitable with AI, and keep their p
 - Reshape discovery, design, and delivery as AI does more of the execution
 - Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
 
-I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+The training is built on my own research into what AI does to people who think for a living — that's Modrn Mind, below. I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
