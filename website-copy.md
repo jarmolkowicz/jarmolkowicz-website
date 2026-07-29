@@ -1,6 +1,6 @@
 # Website Copy: jarmolkowicz.com
 
-> Synced from `src/pages/index.astro` on 2026-07-09. This doc mirrors the live copy. Edit the Astro source for changes to go live.
+> Synced from `src/pages/index.astro` on 2026-07-29. This doc mirrors the live copy. Edit the Astro source for changes to go live.
 
 ---
 
@@ -13,20 +13,20 @@ I care about what technology does *to* people.
 
 **Sub-headline:** Not only what it does for them.
 
-**Meta tags:** AI TRAINING & ENABLEMENT · VALUE INNOVATION · CONSULTING & SOFTWARE SERVICES
+**Meta tags:** AI TRAINING & ENABLEMENT · VALUE INNOVATION · CONSULTING SERVICES
 
 ---
 
 ## 01 — WORK · How I help.
 
-I help consulting and software services companies get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The skills decay, the deliverables become indistinguishable from everyone else's AI output, and by the time it shows, your edge is gone.
+I help consulting firms get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The skills decay, the deliverables become indistinguishable from everyone else's AI output, and by the time it shows, your edge is gone.
 
 - Train your people to work well with AI and keep their skills and judgment sharp
 - Rethink what you offer as AI shifts where the value is
 - Reshape discovery, design, and delivery as AI does more of the execution
 - Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
 
-I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. Right now that's two software agencies, one bringing AI into how they deliver, one rethinking their offering as AI shifts the value. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
