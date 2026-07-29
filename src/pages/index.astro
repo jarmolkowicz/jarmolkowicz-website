@@ -1,5 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
+import pawel01 from "../assets/pawel-01.jpg";
+import pawel02 from "../assets/pawel-02.jpg";
+import pawel03 from "../assets/pawel-03.jpg";
 ---
 
 <Layout>
@@ -80,9 +84,12 @@ import Layout from "../layouts/Layout.astro";
         >
       </div>
       <div class="spotlight-image">
-        <img
-          src="/images/pawel-01.jpg"
+        <Image
+          src={pawel01}
           alt="Paweł Jarmołkowicz, innovation practitioner-researcher"
+          widths={[480, 800, 1100]}
+          sizes="(max-width: 900px) 100vw, 38vw"
+          loading="eager"
         />
       </div>
     </section>
@@ -176,9 +183,11 @@ import Layout from "../layouts/Layout.astro";
         </div>
       </div>
       <div class="research-image">
-        <img
-          src="/images/pawel-02.jpg"
+        <Image
+          src={pawel02}
           alt="Paweł Jarmołkowicz, creator of Modrn Mind, research on AI and human thinking"
+          widths={[480, 800, 1100]}
+          sizes="(max-width: 900px) 100vw, 38vw"
           loading="lazy"
         />
       </div>
@@ -334,9 +343,11 @@ import Layout from "../layouts/Layout.astro";
         </div>
       </div>
       <div class="background-image">
-        <img
-          src="/images/pawel-03.jpg"
+        <Image
+          src={pawel03}
           alt="Paweł Jarmołkowicz, twenty years across technology, research, and strategy"
+          widths={[480, 800, 1100]}
+          sizes="(max-width: 900px) 100vw, 38vw"
           loading="lazy"
         />
       </div>
