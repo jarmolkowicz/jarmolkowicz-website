@@ -52,7 +52,7 @@ Modrn Mind (yes, no "e") is my research into what AI does to those of us who thi
 
 Different fields, but it's the same problem I still work on. New technology only pays off when the people and the business move with it.
 
-**// Organizational movement**
+**// Changing how companies work**
 
 **Selling something a sales team doesn't understand**
 Getting a sales organization to sell data and ML services when they don't understand what they're selling, and their bonuses depend on services they already know how to close.
@@ -63,7 +63,7 @@ Shifting a company that competes on execution and price toward competing on valu
 **Staying fast while becoming certifiable**
 ISO 13485 demands documentation, process control, and audit trails. Getting certified without turning the company into something slow and risk-averse. Building the quality system around maintaining speed and flexibility to explore new ideas.
 
-**// Commercial navigation**
+**// Making new things pay**
 
 **A business model for something that doesn't exist yet**
 Building a commercial model for a digital health product with no category in any healthcare reimbursement framework, no established buyer, and nothing comparable to point to.
@@ -74,7 +74,7 @@ Scientific and clinical validation takes years, leaving the question of how to s
 **When clients want ML but aren't ready for it**
 Companies arrive asking for machine learning. What they actually need first: clean data, infrastructure to move it, people who know what to do with it. Building the foundations that make ML possible before ML itself.
 
-**// Technical imagination**
+**// Inventing products**
 
 **Detecting autism from the way a child plays**
 Children play a game. The game captures fine motor patterns: timing, pressure, movement. ML models analyze those patterns for early signs of autism. A diagnostic tool disguised as play, designed for children too young to answer questions.
@@ -85,7 +85,7 @@ Miniaturizing satellite hyperspectral imaging into a smartphone dongle. Point it
 **Rapid STD testing in a ring**
 A wearable medical device with a replaceable cartridge containing microneedles and a biochip, testing for four common STDs in minutes. No clinic, no lab, no waiting.
 
-**// Research rigor**
+**// Proving it works**
 
 **From hypothesis to Phase 3 clinical trial**
 Starting with exploratory studies. Refining the ML models. Publishing in peer-reviewed journals. Replicating results. Then a Phase 3 clinical trial in 760 children across the UK and Sweden. A new diagnostic paradigm needs to be proven before anyone will trust it. Building that proof, one study at a time.
