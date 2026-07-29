@@ -40,7 +40,7 @@ Modrn Mind (yes, no "e") is my research into what AI does to those of us who thi
 
 **CTA:** Explore the Knowledge Base → (https://modrnmind.com)
 
-**Recent writing:**
+**Selected writing:**
 - [Charting the Course: Strategic Transformation for Software Agencies in the AI Economy](https://read.modrnmind.com/p/charting-the-course-strategic-transformation) — why software agencies have to move from commodity delivery to the value only people can create
 - [The Human Edge: Cultivating the Human Wisdom AI Can't Automate](https://read.modrnmind.com/p/the-human-edge-cultivating-the-human) — as AI takes over the craft, the premium shifts to the human wisdom it can't copy
 - [The One Calibration Question That Changes How You Use AI](https://read.modrnmind.com/p/the-one-calibration-question-that) — before each prompt, ask how much of *you* the task actually requires
