@@ -27,10 +27,10 @@ import pawel03 from "../assets/pawel-03.jpg";
       <footer class="hero-footer">
         <div class="hero-rule"></div>
         <nav class="hero-meta" aria-label="Sections">
-          <a class="mono dim" href="#work">WORK</a>
-          <a class="mono dim" href="#research">RESEARCH</a>
-          <a class="mono dim" href="#background">BACKGROUND</a>
-          <a class="mono dim" href="#recognition">RECOGNITION</a>
+          <a class="mono" href="#work"><span class="amber">01</span>&nbsp;WORK</a>
+          <a class="mono" href="#research"><span class="amber">02</span>&nbsp;RESEARCH</a>
+          <a class="mono" href="#background"><span class="amber">03</span>&nbsp;BACKGROUND</a>
+          <a class="mono" href="#recognition"><span class="amber">04</span>&nbsp;RECOGNITION</a>
         </nav>
       </footer>
     </section>
@@ -580,7 +580,8 @@ import pawel03 from "../assets/pawel-03.jpg";
 
   .hero-meta {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 2.5rem;
     align-items: center;
     font-family: var(--mono);
     font-size: 0.8125rem;
@@ -588,6 +589,7 @@ import pawel03 from "../assets/pawel-03.jpg";
   }
 
   .hero-meta a {
+    color: var(--text);
     transition: color 0.2s;
   }
 
