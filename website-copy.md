@@ -6,7 +6,7 @@
 
 ## Hero
 
-**Header:** PAWEŁ JARMOŁKOWICZ · INNOVATION PRACTITIONER-RESEARCHER
+**Header:** PAWEŁ JARMOŁKOWICZ · INNOVATION CONSULTANT & RESEARCHER
 
 **Headline:**
 I care about what technology does *to* people.
