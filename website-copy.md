@@ -1,6 +1,6 @@
 # Website Copy: jarmolkowicz.com
 
-> Synced from `src/pages/index.astro` on 2026-07-29. This doc mirrors the live copy. Edit the Astro source for changes to go live.
+> Synced from `src/pages/index.astro` on 2026-07-30. This doc mirrors the live copy. Edit the Astro source for changes to go live.
 
 ---
 
@@ -23,7 +23,7 @@ I'm an innovation consultant. Twenty years across technology, research, and stra
 
 AI has been part of my own work for a few years now. I noticed it changing my work, and me. So I started researching how it changes knowledge work and what it does to the rest of us. That research is Modrn Mind, below.
 
-I help bring AI into consulting work, building on my own experience and research. I run the training and change how the work actually gets done. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+I help bring AI into consulting work, building on my own experience and research. I run the training and change how the work actually gets done.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
