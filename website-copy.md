@@ -17,16 +17,13 @@ I care about what technology does *to* people.
 
 ---
 
-## 01 — WORK · How I help.
+## 01 — WORK · What I do.
 
-I help consulting firms get faster and more profitable with AI, and keep their people sharp. They're the ones who make the company worth hiring. Left alone, AI makes the work look better while the people quietly get worse at it. The skills decay, the deliverables become indistinguishable from everyone else's AI output, and by the time it shows, your edge is gone.
+I'm an innovation consultant. Twenty years across technology, research, and strategy — most of it in healthcare and life sciences. I work on innovation and product strategy.
 
-- Train your people to work well with AI and keep their skills and judgment sharp
-- Rethink what you offer as AI shifts where the value is
-- Reshape discovery, design, and delivery as AI does more of the execution
-- Move carefully with AI in regulated, high-stakes work, where a wrong call is expensive
+AI has been part of my own work for a few years now. I noticed it changing my work, and me. So I started researching how it changes knowledge work and what it does to the rest of us. That research is Modrn Mind, below.
 
-The training comes from two places. I consult for a living — innovation and product strategy, with AI in the work every day. And I research what AI does to people who think for a living — that's Modrn Mind, below. I don't just advise. I embed in the team, run the training, change how the work actually gets done, and stay accountable for whether it holds. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
+I help bring AI into consulting work, building on my own experience and research. I run the training and change how the work actually gets done. That means one or two teams at a time. I take the next engagement when a slot opens. If that's the work you need, let's plan the next one.
 
 **CTA:** Let's talk → (https://calendar.app.google/T1xR4TFERp7Xuy7K7)
 
