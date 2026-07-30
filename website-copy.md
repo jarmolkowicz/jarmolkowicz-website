@@ -49,28 +49,6 @@ Modrn Mind (yes, no "e") is my research into what AI does to those of us who thi
 
 Different fields, but it's the same problem I still work on. New technology only pays off when the people and the business move with it.
 
-**// Changing how companies work**
-
-**Selling something a sales team doesn't understand**
-Getting a sales organization to sell data and ML services when they don't understand what they're selling, and their bonuses depend on services they already know how to close.
-
-**Turning a software company into an advisory firm**
-Shifting a company that competes on execution and price toward competing on value and results. Different positioning, different talent, different sales process, different client relationship.
-
-**Staying fast while becoming certifiable**
-ISO 13485 demands documentation, process control, and audit trails. Getting certified without turning the company into something slow and risk-averse. Building the quality system around maintaining speed and flexibility to explore new ideas.
-
-**// Making new things pay**
-
-**A business model for something that doesn't exist yet**
-Building a commercial model for a digital health product with no category in any healthcare reimbursement framework, no established buyer, and nothing comparable to point to.
-
-**How to create value before the science is complete**
-Scientific and clinical validation takes years, leaving the question of how to start being useful to users, building trust with practitioners, and staying financially alive while the evidence base is still being built.
-
-**When clients want ML but aren't ready for it**
-Companies arrive asking for machine learning. What they actually need first: clean data, infrastructure to move it, people who know what to do with it. Building the foundations that make ML possible before ML itself.
-
 **// Inventing products**
 
 **Detecting autism from the way a child plays**
@@ -92,6 +70,28 @@ ML tools trained in controlled research settings perform differently when deploy
 
 **Building a global research network**
 Setting up and maintaining collaborations with universities, research centers, and therapeutic centers across multiple countries. Each with their own agendas and timelines. Building the agreements to make joint research possible and align interests.
+
+**// Making new things pay**
+
+**A business model for something that doesn't exist yet**
+Building a commercial model for a digital health product with no category in any healthcare reimbursement framework, no established buyer, and nothing comparable to point to.
+
+**How to create value before the science is complete**
+Scientific and clinical validation takes years, leaving the question of how to start being useful to users, building trust with practitioners, and staying financially alive while the evidence base is still being built.
+
+**When clients want ML but aren't ready for it**
+Companies arrive asking for machine learning. What they actually need first: clean data, infrastructure to move it, people who know what to do with it. Building the foundations that make ML possible before ML itself.
+
+**// Changing how companies work**
+
+**Selling something a sales team doesn't understand**
+Getting a sales organization to sell data and ML services when they don't understand what they're selling, and their bonuses depend on services they already know how to close.
+
+**Turning a software company into an advisory firm**
+Shifting a company that competes on execution and price toward competing on value and results. Different positioning, different talent, different sales process, different client relationship.
+
+**Staying fast while becoming certifiable**
+ISO 13485 demands documentation, process control, and audit trails. Getting certified without turning the company into something slow and risk-averse. Building the quality system around maintaining speed and flexibility to explore new ideas.
 
 ---
 
